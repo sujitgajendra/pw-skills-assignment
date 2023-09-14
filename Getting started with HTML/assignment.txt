@@ -1,0 +1,11 @@
+4.Write a short note on Tag and element with an example?
+Ans.HTML elements are the building blocks of this language.Each element is an individual component on a particular web page or document.
+The format of an element is start tag,followed by the content and then the closing tag.example:<b>This whole thing is an element<b>.
+HTML tags are what defines where an html element starts and where it ends.
+There is usually an opening bracket,followed by the content name and then the closing bracket.
+There are many types of tags and they all have different uses.example:<p></p>,<title></title> etc.
+
+5.What is the DOCTYPE Declaration in HTML?
+Ans.The HTML document type declaration,also known as DOCTYPE,is the first line of code required in every html document.
+This DOCTYPE declaration to the web browser about what version of HTML the page is written in.
+This ensures that the web page is parsed the same way by different browsers. 
