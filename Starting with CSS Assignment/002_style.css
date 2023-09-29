@@ -1,0 +1,26 @@
+/* styles.css */
+
+/* Block styles (paragraph) */
+.paragraph {
+    /* Shared block styles (optional) */
+    font-family: Arial, sans-serif;
+}
+
+/* Element styles (intro, content, footer) */
+.paragraph__intro {
+    font-weight: bold;
+    color: #333;
+}
+
+.paragraph__content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.paragraph__footer {
+    font-style: italic;
+    color: #666;
+}
+/* In the CSS file, we define block styles for the entire "paragraph" and element styles for each of the paragraph elements
+("intro," "content," "footer"). The class names follow the BEM naming convention, where the block name is followed by two
+underscores (__) to separate it from the element name. */

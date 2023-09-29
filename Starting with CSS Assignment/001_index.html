@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starting with CSS</title>
+    <link rel="stylesheet" href="001_style.css">
+    <style>
+        .internal{
+            color: blue;
+        }
+        .iie{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline CSS -->
+    <div style="color: red;">This is a div with inline CSS (red text).</div>
+
+    <!-- Internal CSS -->
+    <div class="internal">This is a div with internal CSS (blue text).</div>
+
+    <!-- External CSS (Linked from an external file) -->
+    <div class="external">This is a div with external CSS (green text).</div>
+
+    <!-- Inline,Internal and External all linked to same element -->
+    <div style="color: red;" class="iie">This is a div with Inline Internal and External CSS</div>
+    <!-- In this case color red will be shown because in css priority is inline > internal > exterbnal -->
+</body>
+</html>
