@@ -1,0 +1,16 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+.header {
+    text-align: center;
+    font-family: Oswald, sans-serif;
+}
+.google-fonts-image {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+}
+.paragraph {
+    font-family: Montserrat, sans-serif;
+}

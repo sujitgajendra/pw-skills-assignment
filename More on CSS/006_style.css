@@ -1,0 +1,14 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+.header {
+    text-align: center;
+    font-family: bold, grey;
+}
+.paragraph {
+    font-family: normal, grey;
+    text-align: center;
+}
+.pw {
+    width: 100%;
+}

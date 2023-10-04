@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: skyblue;
+    border: 1px solid #ccc;
+    opacity: 1;
+}
+
+.card:hover {
+    opacity: 0.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 10px;
+}
