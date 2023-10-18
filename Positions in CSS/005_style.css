@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box1 {
+    background-color: red;
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+}
+
+.box2 {
+    background-color: blue;
+    left: 100px;
+    top: 100px;
+    z-index: 2;
+}
+
+.box3 {
+    background-color: green;
+    left: 150px;
+    top: 150px;
+    z-index: 3;
+}
+/* In this example, we have three colored boxes (box1, box2, and box3) with different z-index values. box1 has the lowest z-index of 1,
+box2 has a z-index of 2, and box3 has the highest z-index of 3. As a result, box3 will appear on top of both box1 and box2 because of
+its higher z-index. */
