@@ -1,0 +1,33 @@
+1.Describe the main differences between the css flexbox layout model and css grid layout model.
+when would you choose the one over the other?
+Ans.CSS Flexbox and CSS Grid are two popular layout models in CSS, each with its own purpose and set of features.
+Here are the main differences between the two:
+Flexbox: It is primarily a one-dimensional layout model, which means it is best suited for arranging items in a single row or column,
+such as navigation menus, toolbars, or stacking items in a single direction.It focuses on distributing space along a single axis,
+either horizontally or vertically.
+
+Grid: Grid is a two-dimensional layout model, designed for creating complex, grid-based layouts with rows and columns.
+It's ideal for creating both rows and columns, like you would see in a table or card-based layouts.It allows control over 
+both the rows and columns, enabling you to create complex two-dimensional layouts.
+
+When to Choose One Over the Other:
+Flexbox: Choose Flexbox when you need to create one-dimensional layouts, such as aligning items along a single row or column.
+It's excellent for smaller, more contained components within your layout. For example, you might use Flexbox for aligning items
+in a navigation bar.
+Grid: Choose Grid when you need to create complex two-dimensional layouts with rows and columns. Grid is suitable for larger, 
+overall page layouts where you want precise control over both rows and columns. For example, use Grid for structuring the main content
+area of a webpage or creating a responsive grid of images.
+
+
+2.Explain the role of the following key properties in flexbox layout model.
+(i)justify-content:This property controls the alignment of flex items along the main axis. It determines how remaining space is
+distributed between items and can be used to center or space items evenly within the container.
+(ii)align-items:It defines how flex items are aligned along the cross axis (perpendicular to the main axis). 
+This property is used to vertically align items within a horizontal flex container or horizontally align items within a vertical
+flex container.
+(iii)gap: In the context of Flexbox, the gap property can also be used to set the spacing between flex items within a flex container.
+It controls both the horizontal and vertical spacing between items.
+(iv)flex-direction:It defines the main axis of the flex container and the direction in which the flex items are laid out.
+You can choose between horizontal (row) or vertical (column) layouts and reverse directions if needed.
+(v)flex-wrap:It controls whether flex items should wrap onto multiple lines when they don't fit in the container.
+wrap allows items to wrap, and wrap-reverse reverses the order of wrapping.
